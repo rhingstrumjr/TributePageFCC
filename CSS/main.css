@@ -24,6 +24,11 @@ body {
 }
 
 
-#title, #img-div, #tribute-info {
-  margin: 0 auto;
+#title, #img-div, #tribute-info, #info {
+  margin: auto;
+  max-width: 85%;
+}
+
+h1 {
+  color: black;
 }
