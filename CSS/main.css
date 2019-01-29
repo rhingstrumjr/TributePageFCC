@@ -24,17 +24,18 @@ body {
 }
 
 
-#title, #img-div, #tribute-info, #info {
+#title, #img-div, #tribute-info, #info, #timeline-intro {
   margin: auto;
   max-width: 85%;
 }
 
-#info {
+#info, {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-content: center;
 }
+
 
 
 h1 {
