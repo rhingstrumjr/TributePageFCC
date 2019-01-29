@@ -28,7 +28,7 @@ header>div {
   margin: auto;
   font-size: 30px;
 }
-#main, header {
+#main, header, figure, #info {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -36,18 +36,10 @@ header>div {
 }
 
 
-#title, #img-div, #tribute-info, #info, #timeline-intro {
+#title, #img-div, #tribute-info, #info, #timeline-intro, #image-caption {
   margin: auto;
   max-width: 85%;
 }
-
-#info, {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
-}
-
 
 
 h1 {
@@ -71,4 +63,16 @@ h1 {
 div {
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+footer {
+  min-height: 15vh;
+  min-width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+footer>div {
+  float: right;
+  margin-right: 3vw;
 }
