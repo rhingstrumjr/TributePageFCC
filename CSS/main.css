@@ -16,7 +16,19 @@ body {
   background-color: lightgray;
 }
 
-#main {
+
+header {
+  width: 100%;
+  min-height: 45vh;
+  background-color: black;
+}
+
+header>div {
+  color: white;
+  margin: auto;
+  font-size: 30px;
+}
+#main, header {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -54,4 +66,9 @@ h1 {
 	left: 0%;
 	width: 100%;
 	height: 100%;
+}
+
+div {
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
