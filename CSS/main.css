@@ -19,6 +19,8 @@ html {
 
 
 body {
+  position: relative;
+  height: 100%;
   background-color: lightgray;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -102,12 +104,6 @@ p {
 }
 
 
-div {
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
-
-
 a:link {
   text-decoration: none;
   color: blue;
@@ -127,11 +123,14 @@ a:hover {
 
 
 footer {
+  position: static;
   min-height: 23vh;
   min-width: 100%;
   background-color: black;
   color: white;
   bottom: 0;
+  right: 0;
+  padding: 0;
 }
 
 
@@ -142,5 +141,5 @@ footer {
 }
 
 .footerp {
-  margin: 0;
+  margin-bottom: 0;
 }
