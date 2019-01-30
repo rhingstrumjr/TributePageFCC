@@ -52,7 +52,7 @@ header>div {
 }
 
 
-#title, #img-div, #tribute-info, #info, #timeline-intro, #image-caption {
+#title, #img-div, #tribute-info, #info, #timeline-intro, #img-caption {
   margin: auto;
   max-width: 85vw;
   height: auto;
@@ -138,6 +138,7 @@ footer {
 .flo-r {
   float: right;
   margin-right: 3%;
+  margin-bottom: 0;
 }
 
 .footerp {
